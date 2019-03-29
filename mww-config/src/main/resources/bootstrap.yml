@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/ldshz/spring-cloud-config-test
+          search-paths: repo
+          username: username
+          password: password
+server:
+  port: 8889
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8880/eureka/

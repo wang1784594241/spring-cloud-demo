@@ -1,0 +1,7 @@
+spring:
+  cloud:
+   config:
+    name: admin-service-ribbon
+    uri: http://localhost:8889/
+    profile: dev
+    label: master

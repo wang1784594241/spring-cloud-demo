@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: admin-service-feign
+  cloud:
+   config:
+    uri: http://localhost:8889/
+    profile: dev
+    label: master
+
